@@ -19,9 +19,9 @@ const createToDo  = async(req, res) => {
     description : req.body.description,
     dueDate: req.body.dueDate,
 });
-// var currentDate = Date()
-// todoObjects.createdDate = currentDate;
-// todoObjects.updatedDate = currentDate;
+var currentDate = Date()
+todoObjects.createdDate = currentDate;
+todoObjects.updatedDate = currentDate;
 
 
 try {
@@ -50,7 +50,7 @@ const updateToDo = async(req, res) => {
       res.todoAppObject.dueDate = req.body.dueDate;
   }
 
-  //res.todoAppObject.updatedDate =  Date();
+  res.todoAppObject.updatedDate =  Date();
 
   try {
       const updatedTodoObject = await res.todoAppObject.save();

@@ -24,13 +24,16 @@ const todoObjectSchema = new mongoose.Schema(
             type: Date,
             required: true,
         },
-        
-        dueTime:{
-            type: Date,
-            required: true,
+
+        createdDate: {
+            type:Date,
+            required: true
+        },
+
+        updatedDate: {
+            type:Date,
+            required: true
         }
-
-
         
     },
 

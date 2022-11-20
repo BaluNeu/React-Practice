@@ -1,0 +1,49 @@
+#addbtn{
+    background-color: aqua;
+    border-radius: 10px;
+    border-style:none;
+}
+.maindiv{
+    display: block;
+
+
+}
+
+#text-title{
+    border-style: none;
+
+}
+#text-description{
+    border-style: none;
+}
+#text-duedate{
+    border-style: none;
+}
+
+#text-duetime{
+    border-style: none;
+}
+
+.hideit{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    
+    
+}
+#Onelastbutton{
+    align-content: center;
+    border-radius: 5px;
+    border-style: dotted;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua
+
+}
+.button1{
+    text-align: center;
+}

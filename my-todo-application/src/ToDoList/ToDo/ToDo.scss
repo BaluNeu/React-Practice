@@ -1,0 +1,41 @@
+.Open{
+    background-color: orange;
+}
+.Closed{
+    background-color: aquamarine;
+}
+.Pending{
+    background-color: orange;
+}
+
+[class*='list-item']{
+    background-color: aqua;
+    padding: 2em;
+    margin: 1em;
+    >span{
+        display: flex;
+    }
+}
+
+.donelist{
+    >.title{
+        
+        text-decoration:line-through;
+    }
+    >.description,.duedate,.duetime{
+        display: none;
+        background-color: aquamarine;
+        
+    }
+
+
+
+
+}
+.everytodobutton{
+    border-style:dotted;
+
+    background-color: aqua;
+
+
+}
