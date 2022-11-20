@@ -1,0 +1,32 @@
+####ToDoApp
+
+## all todos
+
+GET http://localhost:5001/todoApp/
+
+
+###TODO CREATE
+
+POST http://localhost:5001/todoApp/
+Content-Type: application/json
+
+{
+    "title" : "cooking",
+    "description" : "chicken rice",
+    "dueDate" : "09-30-2020"
+}
+
+### UPDATE
+
+PATCH http://localhost:5001/todoApp/6377de120b2a5a0730fb0bad
+Content-Type: application/json
+
+{
+    "title" : "cookinglol",
+    "dueDate" : "2-20-2022"
+}
+
+
+### DELETE
+
+DELETE http://localhost:5001/todoApp/6377de120b2a5a0730fb0bad
